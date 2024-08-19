@@ -1,5 +1,11 @@
 # Leetcode
-A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
+Welcome to my LeetCode Solutions repository! This repository is a personal project where I systematically work through a variety of problems available on LeetCode. The primary goal of this project is to enhance my problem-solving skills and deepen my understanding of algorithms and data structures, which are crucial for technical interviews and overall programming expertise.
+
+Each solution is carefully crafted with the aim of balancing efficiency and readability. As I progress through the problems, I aim to cover a wide range of topics, including but not limited to:
+
+Data Structures: Arrays, Linked Lists, Trees, Graphs, Stacks, Queues, Heaps, Hash Maps, and more.
+Algorithms: Sorting, Searching, Dynamic Programming, Backtracking, Divide and Conquer, Greedy Algorithms, and more.
+Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, Bit Manipulation, and others.
 
 
 # Math
