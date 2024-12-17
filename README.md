@@ -20,6 +20,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/kritikamehra/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/kritikamehra/Leetcode/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/kritikamehra/Leetcode/tree/master/0136-single-number) |
+| [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/kritikamehra/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0283-move-zeroes) |
@@ -45,6 +46,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/kritikamehra/Leetcode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Prefix Sum
@@ -68,6 +70,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/kritikamehra/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -91,5 +94,10 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
