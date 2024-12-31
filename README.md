@@ -79,12 +79,14 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/kritikamehra/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/kritikamehra/Leetcode/tree/master/1013-fibonacci-number) |
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
 | [0073-set-matrix-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
@@ -125,4 +127,8 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0073-set-matrix-zeroes) |
+## String
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
