@@ -55,6 +55,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kritikamehra/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/kritikamehra/Leetcode/tree/master/2876-number-of-employees-who-met-the-target) |
+| [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Binary Search
 |  |
@@ -173,6 +174,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | ------- |
 | [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
 | [0125-valid-palindrome](https://github.com/kritikamehra/Leetcode/tree/master/0125-valid-palindrome) |
+| [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
 ## Binary Indexed Tree
 |  |
 | ------- |
