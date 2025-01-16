@@ -51,6 +51,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/kritikamehra/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1580-shuffle-the-array](https://github.com/kritikamehra/Leetcode/tree/master/1580-shuffle-the-array) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/kritikamehra/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1646-kth-missing-positive-number](https://github.com/kritikamehra/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kritikamehra/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -123,6 +124,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0189-rotate-array](https://github.com/kritikamehra/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/kritikamehra/Leetcode/tree/master/1013-fibonacci-number) |
+| [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [2032-largest-odd-number-in-string](https://github.com/kritikamehra/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2556-convert-the-temperature](https://github.com/kritikamehra/Leetcode/tree/master/2556-convert-the-temperature) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/kritikamehra/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
@@ -135,6 +137,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/kritikamehra/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Bit Manipulation
 |  |
@@ -161,6 +164,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | ------- |
 | [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
+| [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Divide and Conquer
 |  |
