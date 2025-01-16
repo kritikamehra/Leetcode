@@ -7,7 +7,7 @@ class Solution {
 
         while(top <= bottom && left <= right) {
 
-            for(int i = top; i <= right; i++) {
+            for(int i = left; i <= right; i++) {
                 mat[top][i] = count++;
             }
             top++;
