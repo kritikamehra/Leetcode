@@ -103,6 +103,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Prefix Sum
 |  |
@@ -144,6 +145,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [0560-subarray-sum-equals-k](https://github.com/kritikamehra/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0782-jewels-and-stones](https://github.com/kritikamehra/Leetcode/tree/master/0782-jewels-and-stones) |
 | [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
@@ -154,6 +156,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | ------- |
 | [0136-single-number](https://github.com/kritikamehra/Leetcode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -196,6 +199,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/kritikamehra/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/kritikamehra/Leetcode/tree/master/0125-valid-palindrome) |
+| [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [0782-jewels-and-stones](https://github.com/kritikamehra/Leetcode/tree/master/0782-jewels-and-stones) |
 | [2032-largest-odd-number-in-string](https://github.com/kritikamehra/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
