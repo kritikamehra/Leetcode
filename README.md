@@ -102,6 +102,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0088-merge-sorted-array](https://github.com/kritikamehra/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/kritikamehra/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -144,6 +145,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0073-set-matrix-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/kritikamehra/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/kritikamehra/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [0560-subarray-sum-equals-k](https://github.com/kritikamehra/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -199,6 +201,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/kritikamehra/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/kritikamehra/Leetcode/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/kritikamehra/Leetcode/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [0782-jewels-and-stones](https://github.com/kritikamehra/Leetcode/tree/master/0782-jewels-and-stones) |
 | [2032-largest-odd-number-in-string](https://github.com/kritikamehra/Leetcode/tree/master/2032-largest-odd-number-in-string) |
