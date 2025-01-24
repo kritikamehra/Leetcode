@@ -1,56 +1,50 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        // merge without extra space
-        int n = nums1.length, m = nums2.length;
-        int i = n-1, j = 0;
+        
+        int l1 = nums1.length, l2 = nums2.length;
+        int mid = (l1+l2)/2;
+        int ind1 = -1, ind2 = -1;
 
-        while(i >= 0 && j < m) {
-            if(nums1[i] > nums2[j]) {
-                int temp = nums2[j];
-                nums2[j] = nums1[i];
-                nums1[i] = temp;
-                i--;
+        if((l1+l2)%2 == 0) {
+            ind1 = mid-1;
+            ind2 = mid;
+        }
+        else {
+            ind1 = mid;
+            ind2 = mid;
+        }
+
+        int cnt = 0, ele1 = -1, ele2 = -1, i = 0, j = 0;
+        while(i < l1 && j < l2) {
+            int temp = 0;
+            if(nums1[i] <= nums2[j]) {
+                if(cnt == ind1) ele1 = nums1[i];
+                if(cnt == ind2) ele2 = nums1[i];
+                cnt++;
+                i++;
+            }
+            else {
+                if(cnt == ind1) ele1 = nums2[j];
+                if(cnt == ind2) ele2 = nums2[j];
+                cnt++;
                 j++;
             }
-            else break;
         }
 
-        Arrays.sort(nums1);
-        Arrays.sort(nums2);
-
-        if((m+n)%2 == 0) {
-            int f = (m+n)/2-1;
-            int c = (m+n)/2;
-            int first = 0, second = 0;
-            if(f >= n) {
-                first = nums2[f-n];
-            //     f -= n;
-            //     c -= n;
-            //     return ((double)nums2[f-1]+nums2[c-1])/2.0;
-            }
-            else {
-                first = nums1[f];
-                // return ((double)nums2[0]+nums2[1])/2.0;
-            }
-            if(c >= n) {
-                second = nums2[c-n];
-                // return ((double)nums2[f-1]+nums2[c-1])/2.0;   
-            }
-            else {
-                second = nums1[c];
-                // return ((double)nums1[n-1]+nums2[0])/2.0;
-            }
-
-            return (double)(first+second)/2.0;
+        while(i < l1) {
+            if(cnt == ind1) ele1 = nums1[i];
+            if(cnt == ind2) ele2 = nums1[i];
+            cnt++;
+            i++;
         }
 
-        else {
-            int mid = (m+n)/2;
-            if(mid >= n) {
-                mid-=n;
-                return nums2[mid];
-            }
-            else return nums1[mid];
+        while(j < l2) {
+            if(cnt == ind1) ele1 = nums2[j];
+            if(cnt == ind2) ele2 = nums2[j];
+            cnt++;
+            j++;
         }
+
+        return (double)(ele1+ele2)/2.0;
     }
 }
