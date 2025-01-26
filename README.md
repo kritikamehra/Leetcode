@@ -61,6 +61,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1646-kth-missing-positive-number](https://github.com/kritikamehra/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kritikamehra/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2047-find-a-peak-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/kritikamehra/Leetcode/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -89,6 +90,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/kritikamehra/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/kritikamehra/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2047-find-a-peak-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -211,6 +213,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0073-set-matrix-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/kritikamehra/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kritikamehra/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [2047-find-a-peak-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## String
 |  |
 | ------- |
