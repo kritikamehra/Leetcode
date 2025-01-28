@@ -62,6 +62,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kritikamehra/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2047-find-a-peak-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/kritikamehra/Leetcode/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -91,6 +92,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1646-kth-missing-positive-number](https://github.com/kritikamehra/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2047-find-a-peak-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
 ## Greedy
 |  |
 | ------- |
@@ -136,6 +138,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0151-reverse-words-in-a-string](https://github.com/kritikamehra/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/kritikamehra/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0283-move-zeroes) |
+| [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
 ## Math
 |  |
 | ------- |
@@ -165,6 +168,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0782-jewels-and-stones](https://github.com/kritikamehra/Leetcode/tree/master/0782-jewels-and-stones) |
 | [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/kritikamehra/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kritikamehra/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Bit Manipulation
