@@ -3,8 +3,8 @@ class Solution {
     public boolean check(int[] piles, int k, int h) {
         int count = 0;
         for(int i = 0; i < piles.length; i++) {
-            if(piles[i] <= k) count++;
-            else count += piles[i]/k + (piles[i]%k != 0?1:0);
+            // if(piles[i] <= k) count++;
+            count += piles[i]/k + (piles[i]%k != 0?1:0);
 
             if(count > h) return false;
         }
