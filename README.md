@@ -170,6 +170,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0560-subarray-sum-equals-k](https://github.com/kritikamehra/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0782-jewels-and-stones](https://github.com/kritikamehra/Leetcode/tree/master/0782-jewels-and-stones) |
 | [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/kritikamehra/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/kritikamehra/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -206,6 +207,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/kritikamehra/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/kritikamehra/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Divide and Conquer
 |  |
@@ -242,6 +244,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0812-rotate-string](https://github.com/kritikamehra/Leetcode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/kritikamehra/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/kritikamehra/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/kritikamehra/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/kritikamehra/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2032-largest-odd-number-in-string](https://github.com/kritikamehra/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
