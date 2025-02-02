@@ -82,6 +82,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0162-find-peak-element](https://github.com/kritikamehra/Leetcode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kritikamehra/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
+| [0367-valid-perfect-square](https://github.com/kritikamehra/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0410-split-array-largest-sum](https://github.com/kritikamehra/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/kritikamehra/Leetcode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/kritikamehra/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -150,6 +151,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0189-rotate-array](https://github.com/kritikamehra/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/kritikamehra/Leetcode/tree/master/0326-power-of-three) |
+| [0367-valid-perfect-square](https://github.com/kritikamehra/Leetcode/tree/master/0367-valid-perfect-square) |
 | [1013-fibonacci-number](https://github.com/kritikamehra/Leetcode/tree/master/1013-fibonacci-number) |
 | [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [2032-largest-odd-number-in-string](https://github.com/kritikamehra/Leetcode/tree/master/2032-largest-odd-number-in-string) |
