@@ -295,6 +295,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1827-invalid-tweets](https://github.com/kritikamehra/Leetcode/tree/master/1827-invalid-tweets) |
 | [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/kritikamehra/Leetcode/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/kritikamehra/Leetcode/tree/master/1908-recyclable-and-low-fat-products) |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/kritikamehra/Leetcode/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Trie
 |  |
 | ------- |
