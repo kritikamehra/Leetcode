@@ -198,6 +198,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/kritikamehra/Leetcode/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0326-power-of-three](https://github.com/kritikamehra/Leetcode/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/kritikamehra/Leetcode/tree/master/1013-fibonacci-number) |
 ## Memoization
@@ -312,6 +313,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
