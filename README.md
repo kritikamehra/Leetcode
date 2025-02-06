@@ -151,6 +151,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0189-rotate-array](https://github.com/kritikamehra/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0283-move-zeroes) |
+| [0345-reverse-vowels-of-a-string](https://github.com/kritikamehra/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0908-middle-of-the-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1894-merge-strings-alternately](https://github.com/kritikamehra/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
@@ -262,6 +263,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0168-excel-sheet-column-title](https://github.com/kritikamehra/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0205-isomorphic-strings](https://github.com/kritikamehra/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/kritikamehra/Leetcode/tree/master/0242-valid-anagram) |
+| [0345-reverse-vowels-of-a-string](https://github.com/kritikamehra/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [0451-sort-characters-by-frequency](https://github.com/kritikamehra/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0782-jewels-and-stones](https://github.com/kritikamehra/Leetcode/tree/master/0782-jewels-and-stones) |
