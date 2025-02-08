@@ -155,6 +155,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0234-palindrome-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/kritikamehra/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0541-reverse-string-ii](https://github.com/kritikamehra/Leetcode/tree/master/0541-reverse-string-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1894-merge-strings-alternately](https://github.com/kritikamehra/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -272,6 +273,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0345-reverse-vowels-of-a-string](https://github.com/kritikamehra/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [0451-sort-characters-by-frequency](https://github.com/kritikamehra/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0541-reverse-string-ii](https://github.com/kritikamehra/Leetcode/tree/master/0541-reverse-string-ii) |
 | [0782-jewels-and-stones](https://github.com/kritikamehra/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0812-rotate-string](https://github.com/kritikamehra/Leetcode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/kritikamehra/Leetcode/tree/master/1078-remove-outermost-parentheses) |
