@@ -55,6 +55,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0628-maximum-product-of-three-numbers](https://github.com/kritikamehra/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0792-binary-search](https://github.com/kritikamehra/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/kritikamehra/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [0932-monotonic-array](https://github.com/kritikamehra/Leetcode/tree/master/0932-monotonic-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/kritikamehra/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/kritikamehra/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1580-shuffle-the-array](https://github.com/kritikamehra/Leetcode/tree/master/1580-shuffle-the-array) |
