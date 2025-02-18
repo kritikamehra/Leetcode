@@ -22,27 +22,53 @@ class Solution {
         // head null
         if(head == null) return null;
 
-        HashMap<Node,Node> mp = new HashMap<>();
-
+        Node next = null;
         // copy next pointers
         while(temp != null) {
             Node newnode = new Node(temp.val);
-            mp.put(temp,newnode);
+            // next = temp.next;
             dummy.next = newnode;
             dummy = newnode;
             temp = temp.next;
         }
 
+        //set next pointers
         temp = head;
-
+        Node t = ans.next;
+    
         while(temp != null) {
-            Node newnode = mp.get(temp);
-            if(temp.random == null)
-                newnode.random = null;
-            else {
-                newnode.random = mp.get(temp.random);
+            next = temp.next;
+            temp.next = t;
+            temp = next;
+            
+            next = t.next;
+            t.next = temp;
+            t = next;
+        }
+
+        //add random pointer
+        temp = head;
+        while(temp != null) {
+            if(temp.next != null) {
+                if(temp.random == null)
+                    temp.next.random = null;
+                else {
+                    temp.next.random = temp.random.next;
+                }
+                temp = temp.next.next;
             }
+        }
+
+
+        //remove next pointers
+        temp = head;
+        next = head.next;
+        while(temp != null) {
+            temp.next = next.next;
             temp = temp.next;
+            if(next.next != null)
+            next.next = temp.next;
+            next = next.next;
         }
 
         return ans.next;
