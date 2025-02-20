@@ -1,24 +1,19 @@
 class Solution {
-    public double pow(double x, double p) {
-        if(p == 0) return 1;
-        if(p == 1)  return x;
-        if(p%2 == 0) {
-            double temp = pow(x,p/2);
+    public double myPow(double x, int n) {
+        if(n < 0) {
+            if(n == Integer.MIN_VALUE)
+                return 1/x * myPow(1/x,Integer.MAX_VALUE);
+                //as intmax ends in 7 and int min ends in 8 so we are multipling extra 1/x
+            else
+                return myPow(1/x,-n);
+        }
+        if(n == 0)  return 1.0;
+
+        if(n%2 == 0) {
+            double temp = myPow(x,n/2);
             return temp*temp;
         }
-        else {
-            return x*pow(x,p-1);
-        }
-    }
-    public double myPow(double x, int n) {
-        if(n == 0) return 1;
-        if(n == 1)  return x;
-        if(x == 1)  return 1;
-        double p = (double)n;
-        // int p = n;
-        if(n < 0)
-            return pow(1/x, (-p));
         else
-            return pow(x, p);
+            return x*myPow(x,n-1);
     }
 }
