@@ -180,6 +180,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1013-fibonacci-number](https://github.com/kritikamehra/Leetcode/tree/master/1013-fibonacci-number) |
 | [1635-number-of-good-pairs](https://github.com/kritikamehra/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [2032-largest-odd-number-in-string](https://github.com/kritikamehra/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2050-count-good-numbers](https://github.com/kritikamehra/Leetcode/tree/master/2050-count-good-numbers) |
 | [2556-convert-the-temperature](https://github.com/kritikamehra/Leetcode/tree/master/2556-convert-the-temperature) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/kritikamehra/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kritikamehra/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -234,6 +235,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0234-palindrome-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/kritikamehra/Leetcode/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/kritikamehra/Leetcode/tree/master/1013-fibonacci-number) |
+| [2050-count-good-numbers](https://github.com/kritikamehra/Leetcode/tree/master/2050-count-good-numbers) |
 ## Memoization
 |  |
 | ------- |
