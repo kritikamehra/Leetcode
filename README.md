@@ -312,6 +312,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1960-check-if-the-sentence-is-pangram](https://github.com/kritikamehra/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2032-largest-odd-number-in-string](https://github.com/kritikamehra/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
+| [3379-score-of-a-string](https://github.com/kritikamehra/Leetcode/tree/master/3379-score-of-a-string) |
 | [3468-find-the-encrypted-string](https://github.com/kritikamehra/Leetcode/tree/master/3468-find-the-encrypted-string) |
 ## Binary Indexed Tree
 |  |
