@@ -75,6 +75,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/kritikamehra/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/kritikamehra/Leetcode/tree/master/2876-number-of-employees-who-met-the-target) |
+| [3176-minimum-sum-of-mountain-triplets-i](https://github.com/kritikamehra/Leetcode/tree/master/3176-minimum-sum-of-mountain-triplets-i) |
 | [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/kritikamehra/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/kritikamehra/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
