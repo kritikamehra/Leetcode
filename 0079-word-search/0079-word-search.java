@@ -8,19 +8,19 @@ class Solution {
 
         boolean left = false, right = false, bottom = false, top = false;
 
-        if(!drxn.equals("left") && i-1 >= 0 && board[i-1][j] == word.charAt(0)) {
+        if(i-1 >= 0 && board[i-1][j] == word.charAt(0)) {
             left = helper(board, word.substring(1), i-1, j, "right");
         }
 
-        if(!drxn.equals("right") && i+1 < board.length && board[i+1][j] == word.charAt(0)) {
+        if(i+1 < board.length && board[i+1][j] == word.charAt(0)) {
             right = helper(board, word.substring(1), i+1, j, "left");
         }
 
-        if(!drxn.equals("top") && j-1 >= 0 && board[i][j-1] == word.charAt(0)) {
+        if(j-1 >= 0 && board[i][j-1] == word.charAt(0)) {
             top = helper(board, word.substring(1), i, j-1, "bottom");
         }
 
-        if(!drxn.equals("bottom") && j+1 < board[i].length && board[i][j+1] == word.charAt(0)) {
+        if(j+1 < board[i].length && board[i][j+1] == word.charAt(0)) {
             bottom = helper(board, word.substring(1), i, j+1, "top");
         }
 
