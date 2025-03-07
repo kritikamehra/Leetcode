@@ -60,6 +60,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0560-subarray-sum-equals-k](https://github.com/kritikamehra/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/kritikamehra/Leetcode/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kritikamehra/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/kritikamehra/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/kritikamehra/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/kritikamehra/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0932-monotonic-array](https://github.com/kritikamehra/Leetcode/tree/master/0932-monotonic-array) |
@@ -102,6 +103,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0410-split-array-largest-sum](https://github.com/kritikamehra/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/kritikamehra/Leetcode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/kritikamehra/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/kritikamehra/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/kritikamehra/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/kritikamehra/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/kritikamehra/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
