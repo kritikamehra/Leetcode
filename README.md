@@ -323,6 +323,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/kritikamehra/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/kritikamehra/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2032-largest-odd-number-in-string](https://github.com/kritikamehra/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2819-remove-trailing-zeros-from-a-string](https://github.com/kritikamehra/Leetcode/tree/master/2819-remove-trailing-zeros-from-a-string) |
 | [2886-faulty-keyboard](https://github.com/kritikamehra/Leetcode/tree/master/2886-faulty-keyboard) |
 | [3194-find-words-containing-character](https://github.com/kritikamehra/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3379-score-of-a-string](https://github.com/kritikamehra/Leetcode/tree/master/3379-score-of-a-string) |
