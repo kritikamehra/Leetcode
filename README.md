@@ -17,6 +17,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/kritikamehra/Leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/kritikamehra/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/kritikamehra/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/kritikamehra/Leetcode/tree/master/0018-4sum) |
@@ -206,6 +207,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/kritikamehra/Leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/kritikamehra/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0073-set-matrix-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0073-set-matrix-zeroes) |
