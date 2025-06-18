@@ -77,6 +77,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [1927-maximum-ascending-subarray-sum](https://github.com/kritikamehra/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/kritikamehra/Leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2047-find-a-peak-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/kritikamehra/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/kritikamehra/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/kritikamehra/Leetcode/tree/master/2876-number-of-employees-who-met-the-target) |
@@ -181,6 +182,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0908-middle-of-the-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1894-merge-strings-alternately](https://github.com/kritikamehra/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/kritikamehra/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/kritikamehra/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2634-minimum-common-value](https://github.com/kritikamehra/Leetcode/tree/master/2634-minimum-common-value) |
 ## Math
 |  |
@@ -360,6 +362,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | ------- |
 | [0054-spiral-matrix](https://github.com/kritikamehra/Leetcode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/kritikamehra/Leetcode/tree/master/0059-spiral-matrix-ii) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/kritikamehra/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2886-faulty-keyboard](https://github.com/kritikamehra/Leetcode/tree/master/2886-faulty-keyboard) |
 ## String Matching
 |  |
