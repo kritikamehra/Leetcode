@@ -1,22 +1,21 @@
 class Solution {
+   
     public void nextPermutation(int[] nums) {
-        int pivot=-1;
-
-        for(int i = nums.length-2; i >= 0; i--) {
+        int pivot = -1;
+        for(int i = 0; i < nums.length-1; i++) {
             if(nums[i] < nums[i+1]) {
                 pivot = i;
-                break;
             }
         }
 
-        int ele = 0;
+        int next = -1;
+    
         if(pivot != -1) {
             for(int i = nums.length-1; i > pivot; i--) {
                 if(nums[i] > nums[pivot]) {
                     int temp = nums[i];
                     nums[i] = nums[pivot];
                     nums[pivot] = temp;
-                    // Collections.swap(nums,i,pivot);
                     break;
                 }
             }
