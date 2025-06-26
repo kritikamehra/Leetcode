@@ -1,40 +1,42 @@
 class Solution {
+    public boolean isPossible(int nums[], int mid, int m, int k) {
+        int flowers = 0, bouquet = 0;
 
-    public boolean isPossible(int[] bloomDay, int m, int k, int days) {
-        int flower_count = 0, m_count = 0;
-        for(int i = 0; i < bloomDay.length; i++) {
-            if(bloomDay[i] <= days) flower_count++;
-            else flower_count = 0;
-
-            if(flower_count == k) {
-                m_count++;
-                flower_count = 0;
+        for(int i = 0; i < nums.length; i++) {
+            if(nums[i] <= mid) {
+                flowers++;
+                if(flowers == k) {
+                    bouquet++;
+                    flowers = 0;
+                }
+                if(bouquet == m) return true;
             }
+
+            else flowers = 0;
         }
-        if(m_count < m) return false;
-        return true;
+        return false;
+
     }
-    public int minDays(int[] bloomDay, int m, int k) {
-        
-        int minele = Integer.MAX_VALUE, maxele = Integer.MIN_VALUE;
-        for(int i = 0; i < bloomDay.length; i++) {
-            minele = Math.min(bloomDay[i], minele);
-            maxele = Math.max(bloomDay[i], maxele);
-        } 
+    public int minDays(int[] nums, int m, int k) {
+        int maxBloomday = 0;
+        int ans = -1;
 
-        int low = minele, high = maxele, ans = -1;
-        if(m*k > bloomDay.length) return ans;
+        if(m*k > nums.length) return -1;
 
-        while(low <= high) {
-            int mid = low+(high-low)/2;
-            boolean check = isPossible(bloomDay, m, k, mid);
-            if(check) {
+        for(int i = 0; i < nums.length; i++) {
+            maxBloomday = Math.max(maxBloomday, nums[i]);
+        }
+
+        int start = 1, end = maxBloomday;
+
+        while(start <= end) {
+            int mid = start+(end-start)/2;
+
+            if(isPossible(nums,mid,m,k)) {
                 ans = mid;
-                high = mid-1;
+                end = mid-1;
             }
-            else{
-                low=mid+1;
-            }
+            else start = mid+1;
         }
         return ans;
     }
