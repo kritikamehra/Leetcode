@@ -1,12 +1,14 @@
 class Solution {
     public int findKthPositive(int[] arr, int k) {
-        int low = 0, high = arr.length-1;
-        while(low <= high) {
-            int mid = low+(high-low)/2;
-            int missing = arr[mid]-(mid+1);
-            if(missing < k) low = mid+1;
-            else high= mid-1;
-        }
-        return k+high+1;
+         int start = 0, end = arr.length-1;
+
+         while(start <= end) {
+            int mid = start+(end-start)/2;
+            int missing = arr[mid]-mid-1;
+            if(missing < k) start = mid+1;
+            else end = mid-1;
+         }
+
+         return k+end+1;
     }
 }
