@@ -9,33 +9,56 @@
  * }
  */
 class Solution {
-    public ListNode reverseList(ListNode head) {
-        if(head == null || head.next == null)    return head;
+    public ListNode reverseLL(ListNode head) {
 
-        ListNode front = head.next;
-        ListNode temp = reverseList(head.next);
-        front.next = head;
-        head.next = null;
-        
-        return temp;
-    }
-    public boolean isPalindrome(ListNode head) {
-        // find mid
-        ListNode slow = head, fast = head;
-        int len = 0;
-        while(fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
+        if(head == null || head.next == null) return head;
+
+        ListNode prev = new ListNode(), curr = head;
+        prev.next = curr;
+
+        while(curr.next != null) {
+            ListNode forw = curr.next;
+            curr.next = forw.next;
+            forw.next = prev.next;
+            prev.next = forw;
         }
 
-        ListNode temphead = slow;
-        slow = reverseList(slow);
+        return prev.next;
+    }
+    public boolean isPalindrome(ListNode head) {
+        ListNode curr = head;
+        int len = 0;
 
-        fast = head;
-        while(fast != temphead && slow != null) {
-            if(fast.val != slow.val) return false;
-            slow = slow.next;
-            fast = fast.next;
+        while(curr != null) {
+            len++;
+            curr = curr.next;
+        }
+
+        if(len == 1) return true;
+        
+        int midlen = len/2;
+
+        ListNode prev = null;
+        curr = head;
+        int count = 0;
+        while(count < midlen) {
+            count++;
+            prev = curr;
+            curr = curr.next;
+        }
+
+        System.out.print(curr.val);
+        ListNode reverseHead = reverseLL(curr);
+        prev.next = reverseHead;
+        // if(len%2 != 0) prev = prev.next;
+        
+        curr = head;
+        
+
+        while(reverseHead != null) {
+            if(curr.val != reverseHead.val && curr != prev.next) return false;
+            curr = curr.next;
+            reverseHead = reverseHead.next;
         }
 
         return true;
