@@ -9,38 +9,38 @@
  * }
  */
 class Solution {
-    // public ListNode reverse(ListNode head, int k) {
-    //   if(head == null || head.next == null) return head;
-    // 
-    //     ListNode prev = new ListNode();
-    //     ListNode curr = head;
-    //     prev.next = curr;
-
-    //     int count = 0;
-
-    //     while(curr.next != null) {
-    //         if(count == k) break;
-    //         ListNode forw = curr.next;
-    //         curr.next = forw.next;
-    //         forw.next = prev.next;
-    //         prev.next = forw;
-    //         count++;
-    //     }
-
-    //     return prev.next;
-    // }
-
-     public ListNode reverse(ListNode head, int k) {
-        ListNode prev = null;
+    public ListNode reverse(ListNode head, int k) {
+      if(head == null || head.next == null) return head;
+    
+        ListNode prev = new ListNode();
         ListNode curr = head;
-        while (k-- > 0 && curr != null) {
-            ListNode next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
+        prev.next = curr;
+
+        int count = 1;
+
+        while(curr.next != null) {
+            if(count >= k) break;
+            ListNode forw = curr.next;
+            curr.next = forw.next;
+            forw.next = prev.next;
+            prev.next = forw;
+            count++;
         }
-        return prev;
+
+        return prev.next;
     }
+
+    //  public ListNode reverse(ListNode head, int k) {
+    //     ListNode prev = null;
+    //     ListNode curr = head;
+    //     while (k-- > 0 && curr != null) {
+    //         ListNode next = curr.next;
+    //         curr.next = prev;
+    //         prev = curr;
+    //         curr = next;
+    //     }
+    //     return prev;
+    // }
     public int getLen(ListNode head) {
         if(head == null) return 0;
         if(head.next == null) return 1;
