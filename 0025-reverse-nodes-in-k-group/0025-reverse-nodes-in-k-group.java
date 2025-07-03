@@ -9,63 +9,86 @@
  * }
  */
 class Solution {
-    public int calclength(ListNode head) {
-        int len = 0;
+    // public ListNode reverse(ListNode head, int k) {
+    //   if(head == null || head.next == null) return head;
+    // 
+    //     ListNode prev = new ListNode();
+    //     ListNode curr = head;
+    //     prev.next = curr;
+
+    //     int count = 0;
+
+    //     while(curr.next != null) {
+    //         if(count == k) break;
+    //         ListNode forw = curr.next;
+    //         curr.next = forw.next;
+    //         forw.next = prev.next;
+    //         prev.next = forw;
+    //         count++;
+    //     }
+
+    //     return prev.next;
+    // }
+
+     public ListNode reverse(ListNode head, int k) {
+        ListNode prev = null;
+        ListNode curr = head;
+        while (k-- > 0 && curr != null) {
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+    public int getLen(ListNode head) {
+        if(head == null) return 0;
+        if(head.next == null) return 1;
+
+        int count = 0;
         ListNode temp = head;
 
         while(temp != null) {
-            len++;
+            count++;
             temp = temp.next;
         }
 
-        return len;
+        return count;
     }
-    public ListNode reverse(ListNode root, int k) {
-        ListNode temp = root;
-        ListNode prev = null;
-        int count = 0;
 
-        while(temp != null && count < k) {
-            ListNode next = temp.next;
-            temp.next = prev;
-            prev = temp;
-            temp = next;
-            count++;
-        }
-
-        return prev;
-    }
     public ListNode reverseKGroup(ListNode head, int k) {
-        if(head == null || k == 1) return head;
-        // length
-        int len = calclength(head);
-        if(k > len) return head;
+
+        if(head == null || head.next == null) return head; 
+        if(k == 1) return head;
+        int len = getLen(head);
+
+        if(k == len) return reverse(head, k);
+
+        ListNode curr = head;
         ListNode ans = new ListNode();
-        ListNode dummy = ans;
         ans.next = head;
-        ListNode temp = head;
+        ListNode dummy = ans;
         ListNode next = null;
-        int i = 0;
-        //run till i < len
-        while(i < len) {
-            ListNode curr = temp;
-            next = temp;
+
+        while(k <= len) {
+            ListNode temp = curr;
+            next = curr;
             int count = 0;
-            while(next != null && count < k) {
-                next = next.next;
+            while(count < k && next != null) {
                 count++;
+                next = next.next;
             }
-            
+
             ListNode prev = temp;
-            if(count < k) next = temp.next;
-            else 
+            if(count < k) prev = curr;
+            else {
                 prev = reverse(curr, k);
-            
+            }
             dummy.next = prev;
-            curr.next = next;
-            dummy = curr;
-            temp = next;
-            i+=k;
+            temp.next = next;;
+            dummy = temp;
+            curr = next;
+            len-=k;
         }
 
         return ans.next;
