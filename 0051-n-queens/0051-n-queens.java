@@ -1,61 +1,57 @@
 class Solution {
-    public List<String> construct(char[][] board) {
+    public List<String> build(char[][] board) {
         List<String> temp = new ArrayList<>();
-        for(int i = 0; i < board.length; i++) {
-            String res = new String(board[i]);
-            temp.add(res);
+        for(int i =0; i < board.length; i++) {
+            temp.add(new String(board[i]));
         }
         return temp;
     }
-    public boolean canplace(char[][] board, int n, int row, int col){
+    public boolean canPlace(char[][] board, int n, int row, int col) {
         for(int i = col; i >= 0; i--) {
-            if(board[row][i] == 'Q')   
-                return false;
+            if(board[row][i] == 'Q') return false;
         }
 
-        //upper diagnol
         int i = row, j = col;
+        i--;
+        j--;
         while(i >= 0 && j >= 0) {
-            if(board[i][j] == 'Q')  return false;
+            if(board[i][j] == 'Q') return false;
             i--;
             j--;
         }
 
-        //down diagnal
-        i = row; j = col;
+        i = row+1;
+        j = col-1;
         while(i < n && j >= 0) {
-            if(board[i][j] == 'Q')  return false;
+            if(board[i][j] == 'Q') return false;
             i++;
             j--;
         }
         return true;
     }
-    public void helper(char[][] board, List<List<String>> ans, int n, int col) {
+    public void solve(List<List<String>> ans, char[][] board, int n, int col) {
         if(col >= n) {
-            ans.add(construct(board));
+            ans.add(new ArrayList<>(build(board)));
             return;
         }
 
         for(int i = 0; i < n; i++) {
-            boolean check = canplace(board, n, i, col);
-            if(check) {
+            if(canPlace(board, n, i, col)) {
                 board[i][col] = 'Q';
-                helper(board, ans, n, col+1);
+                solve(ans, board, n, col+1);
                 board[i][col] = '.';
             }
         }
     }
     public List<List<String>> solveNQueens(int n) {
-        char[][] board = new char[n][n];
         List<List<String>> ans = new ArrayList<>();
-        
+        char[][] board = new char[n][n];
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
                 board[i][j] = '.';
             }
         }
-
-        helper(board, ans, n, 0);
+        solve(ans, board, n, 0);
         return ans;
     }
 }
