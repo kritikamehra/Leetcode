@@ -250,6 +250,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0231-power-of-two](https://github.com/kritikamehra/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/kritikamehra/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Dynamic Programming
 |  |
 | ------- |
