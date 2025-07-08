@@ -190,6 +190,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | ------- |
 | [0002-add-two-numbers](https://github.com/kritikamehra/Leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/kritikamehra/Leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/kritikamehra/Leetcode/tree/master/0050-powx-n) |
 | [0168-excel-sheet-column-title](https://github.com/kritikamehra/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/kritikamehra/Leetcode/tree/master/0189-rotate-array) |
@@ -242,6 +243,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/kritikamehra/Leetcode/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/kritikamehra/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kritikamehra/Leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/kritikamehra/Leetcode/tree/master/0136-single-number) |
