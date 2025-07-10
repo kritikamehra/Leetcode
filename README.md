@@ -54,6 +54,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0216-combination-sum-iii](https://github.com/kritikamehra/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/kritikamehra/Leetcode/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kritikamehra/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0260-single-number-iii](https://github.com/kritikamehra/Leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/kritikamehra/Leetcode/tree/master/0410-split-array-largest-sum) |
@@ -250,6 +251,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0136-single-number](https://github.com/kritikamehra/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/kritikamehra/Leetcode/tree/master/0137-single-number-ii) |
 | [0231-power-of-two](https://github.com/kritikamehra/Leetcode/tree/master/0231-power-of-two) |
+| [0260-single-number-iii](https://github.com/kritikamehra/Leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/kritikamehra/Leetcode/tree/master/0389-find-the-difference) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/kritikamehra/Leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
