@@ -1,22 +1,15 @@
 class Solution {
-    public void calc(List<List<Integer>> ans, List<Integer> temp, int nums[], int index) {
-        if(index == nums.length) {
-            ans.add(new ArrayList<>(temp));
-            return;
-        }
-
-        // not pick
-        calc(ans, temp, nums, index+1);
-        
-        //pick
-        temp.add(nums[index]);
-        calc(ans, temp, nums, index+1);
-        temp.remove(temp.size()-1);
-    }
     public List<List<Integer>> subsets(int[] nums) {
+        int n = nums.length;
         List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> temp = new ArrayList<>();
-        calc(ans, temp, nums, 0);
+        for(int i = 0; i < (1<<n); i++) {
+            List<Integer> temp = new ArrayList<>();
+            for(int j = 0; j < n; j++) {
+                if((i & (1<<j)) != 0)
+                    temp.add(nums[j]);
+            }
+            ans.add(new ArrayList<>(temp));
+        }
         return ans;
     }
 }
