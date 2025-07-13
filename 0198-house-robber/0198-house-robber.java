@@ -1,16 +1,18 @@
 class Solution {
-    public int helper(int[] nums, int index, int[] dp) {
-        if(index >= nums.length) return 0;
-        if(dp[index] != -1) return dp[index];
+    public int helper(int[] nums, int index) {
+        
+        if(nums.length == 1) return nums[0];
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
 
-        int pick = nums[index] + helper(nums, index+2, dp);
-        int notpick = helper(nums, index+1, dp);
+        for(int i = 2; i < nums.length; i++) {
+            dp[i] = Math.max(dp[i-1], dp[i-2]+nums[i]);
+        }
 
-        return dp[index] = Math.max(pick, notpick);
+        return dp[nums.length-1];
     }
     public int rob(int[] nums) {
-        int[] dp = new int[nums.length];
-        Arrays.fill(dp, -1);
-        return helper(nums, 0, dp);
+        return helper(nums, 0);
     }
 }
