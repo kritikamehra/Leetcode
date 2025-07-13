@@ -3,14 +3,17 @@ class Solution {
         
         if(nums.length == 1) return nums[0];
         int[] dp = new int[nums.length];
-        dp[0] = nums[0];
-        dp[1] = Math.max(nums[0], nums[1]);
-
+        int prev1 = nums[0];
+        int prev2 = Math.max(nums[0], nums[1]);
+        int maxi =   Math.max(prev1, prev2);
+        
         for(int i = 2; i < nums.length; i++) {
-            dp[i] = Math.max(dp[i-1], dp[i-2]+nums[i]);
+            maxi = Math.max(prev2, prev1+nums[i]);
+            prev1 = prev2;
+            prev2 = maxi;
         }
 
-        return dp[nums.length-1];
+        return maxi;
     }
     public int rob(int[] nums) {
         return helper(nums, 0);
