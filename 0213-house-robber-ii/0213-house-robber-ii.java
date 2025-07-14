@@ -1,28 +1,21 @@
 class Solution {
-    public int rob(int[] nums) {
-        int n = nums.length;
-        if (n == 1) {
-            return nums[0];
-        }
-        if (n == 2) {
-            return Math.max(nums[0], nums[1]);
-        }
+    public int helper(int[] nums, int start, int end, int[] dp) {
+        
+        if(end < start) return 0; 
+        if(dp[end] != -1) return dp[end];
 
-        int money1 = funRob(nums, 0, n - 2);
-        int money2 = funRob(nums, 1, n - 1);
+        int h1 = nums[end] + helper(nums, start, end-2, dp);
+        int h2 = helper(nums, start, end-1, dp);
 
-        return Math.max(money1, money2);
+        return dp[end] = Math.max(h1, h2);
     }
-
-    private int funRob(int[] nums, int s, int e) {
-        int prevRob1 = 0;
-        int prevRob2 = 0;
-
-        for (int i = s; i <= e; i++) {
-            int curr = Math.max(prevRob1, prevRob2 + nums[i]);
-            prevRob2 = prevRob1;
-            prevRob1 = curr;
-        }
-        return prevRob1;
+    public int rob(int[] nums) {
+        if(nums.length == 1) return nums[0];
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp,-1);
+        int h1 = helper(nums, 0, nums.length-2, dp);
+        Arrays.fill(dp, -1);
+        int h2 = helper(nums, 1, nums.length-1, dp);
+        return Math.max(h1, h2);
     }
 }
