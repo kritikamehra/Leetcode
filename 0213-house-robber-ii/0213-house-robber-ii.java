@@ -1,22 +1,25 @@
 class Solution {
-    public int helper(int[] nums, int start, int end, int dp[]) {
-        if(start > end) return 0;
-        if(start == end) return nums[start];
-        if(dp[end] != -1) return dp[end];
+    public int helper(int[] nums, int start, int end) {
+        int n = end-start+1;
+        int[] dp = new int[n];
+        if(n == 1) return nums[start]; 
+        dp[0] = nums[start];
+        dp[1] = Math.max(nums[start], nums[start+1]);
 
-        int pick = nums[end] + helper(nums, start, end-2, dp);
-        int notpick = helper(nums, start, end-1, dp);
+        for(int i = start+2; i <= end; i++) {
+            int pick = nums[i] + dp[i-start-2];
+            int notpick = dp[i-start-1];
+            dp[i-start] = Math.max(pick, notpick);
+        }
 
-        return dp[end] = Math.max(pick, notpick);
+        return dp[n-1];
     }
     public int rob(int[] nums) {
         int n = nums.length;
         if(n == 1) return nums[0];
-        int[] dp = new int[n];
-        Arrays.fill(dp, -1);
-        int left = helper(nums, 0, n-2, dp);
-        Arrays.fill(dp, -1);
-        int right = helper(nums, 1, n-1, dp);
+
+        int left = helper(nums, 0, n-2);
+        int right = helper(nums, 1, n-1);
         return Math.max(left, right);
     }
 }
