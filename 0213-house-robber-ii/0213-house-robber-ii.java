@@ -1,18 +1,16 @@
 class Solution {
     public int helper(int[] nums, int start, int end) {
-        int n = end-start+1;
-        int[] dp = new int[n];
-        if(n == 1) return nums[start]; 
-        dp[0] = nums[start];
-        dp[1] = Math.max(nums[start], nums[start+1]);
+         
+        int prev1 = 0;
+        int prev2 = 0;
 
-        for(int i = start+2; i <= end; i++) {
-            int pick = nums[i] + dp[i-start-2];
-            int notpick = dp[i-start-1];
-            dp[i-start] = Math.max(pick, notpick);
+        for(int i = start; i <= end; i++) {
+            int curr = Math.max(nums[i]+prev2, prev1);
+            prev2 = prev1;
+            prev1 = curr;
         }
 
-        return dp[n-1];
+        return prev1;
     }
     public int rob(int[] nums) {
         int n = nums.length;
