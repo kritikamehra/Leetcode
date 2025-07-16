@@ -196,6 +196,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0013-roman-to-integer](https://github.com/kritikamehra/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/kritikamehra/Leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/kritikamehra/Leetcode/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/kritikamehra/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kritikamehra/Leetcode/tree/master/0070-climbing-stairs) |
 | [0168-excel-sheet-column-title](https://github.com/kritikamehra/Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/kritikamehra/Leetcode/tree/master/0189-rotate-array) |
@@ -264,6 +265,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0005-longest-palindromic-substring](https://github.com/kritikamehra/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/kritikamehra/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/kritikamehra/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/kritikamehra/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kritikamehra/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kritikamehra/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/kritikamehra/Leetcode/tree/master/0131-palindrome-partitioning) |
@@ -461,4 +463,8 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/kritikamehra/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/kritikamehra/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
