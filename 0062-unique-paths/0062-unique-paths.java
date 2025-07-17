@@ -1,25 +1,14 @@
 class Solution {
     public int helper(int m, int n) {
-        int dp[][] = new int[m][n];
-        dp[0][0] = 1;
-
-        //first row and col
-        for(int i = 0; i < m; i++) {
-            dp[i][0] = 1;
-        }
-        for(int i = 0; i < n; i++) {
-            dp[0][i] = 1;
-        }
+        int prev[] = new int[n];
+        Arrays.fill(prev, 1);
 
         for(int i = 1; i < m; i++) { 
             for(int j = 1; j < n; j++) {
-                int left = dp[i][j-1];
-                int up = dp[i-1][j];
-
-                dp[i][j] = left+up;
+                prev[j] += prev[j-1];
             }
         }
-        return dp[m-1][n-1];
+        return prev[n-1];
     }
     public int uniquePaths(int m, int n) {
         return helper(m, n);
