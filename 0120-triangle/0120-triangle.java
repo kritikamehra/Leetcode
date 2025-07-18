@@ -1,18 +1,24 @@
 class Solution {
-    public int helper(int m, int n, List<List<Integer>> triangle, int[][] dp) {
-        if(m == triangle.size()-1) return triangle.get(m).get(n);
-        if(dp[m][n] != -1) return dp[m][n];
-        int down = helper(m+1, n, triangle, dp);
-        int right = helper(m+1, n+1, triangle, dp);
-
-        return dp[m][n] = triangle.get(m).get(n) + Math.min(down, right);
-    }
-    public int minimumTotal(List<List<Integer>> triangle) {
+    public int helper(List<List<Integer>> triangle) {
         int m = triangle.size();
         int dp[][] = new int[m][m];
-        for(int i = 0; i < m; i++) {
-            Arrays.fill(dp[i], -1);
+
+        for(int i = m-1; i >= 0; i--) {
+            dp[m-1][i] = triangle.get(m-1).get(i);
         }
-        return helper(0,0,triangle,dp);
+        
+        for(int i = m-2; i >= 0; i--) {
+            for(int j = i; j >= 0; j--) {
+                int down = dp[i+1][j];
+                int right = dp[i+1][j+1];
+                dp[i][j] = triangle.get(i).get(j) + Math.min(down, right);
+            }
+        }
+
+
+        return dp[0][0];
+    }
+    public int minimumTotal(List<List<Integer>> triangle) {
+        return helper(triangle);
     }
 }
