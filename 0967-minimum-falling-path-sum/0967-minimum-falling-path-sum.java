@@ -1,26 +1,28 @@
 class Solution {
     public int helper(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;
-        int[][] dp = new int[m][n];
+        int[] prev = new int[n];
             for(int j = 0; j < m; j++) {
-                dp[0][j] = matrix[0][j];
+                prev[j] = matrix[0][j];
             }
 
         for(int  i = 1; i < m; i++) {
+            int[] temp = new int[n];
             for(int j = 0; j < m; j++) {
-                int up = dp[i-1][j];
+                int up = prev[j];
                 int left = Integer.MAX_VALUE;
-                if(j > 0) left = dp[i-1][j-1];
+                if(j > 0) left = prev[j-1];
                 int right =Integer.MAX_VALUE;
-                if(j < m-1) right = dp[i-1][j+1];
+                if(j < m-1) right = prev[j+1];
 
-                dp[i][j] = matrix[i][j] + Math.min(up, Math.min(left, right));
+                temp[j] = matrix[i][j] + Math.min(up, Math.min(left, right));
             }
+            prev = temp;
         }
         
         int min = Integer.MAX_VALUE;
         for (int j = 0; j < n; j++) {
-            min = Math.min(min, dp[m - 1][j]);
+            min = Math.min(min, prev[j]);
         }
         return min;
     }
