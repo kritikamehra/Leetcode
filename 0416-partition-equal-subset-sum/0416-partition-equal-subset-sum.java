@@ -1,29 +1,27 @@
 class Solution {
     public boolean helper(int[] nums, int target) {
 
-        boolean[][] dp = new boolean[nums.length][target+1];
-        for(int i = 0; i < nums.length; i++) {
-            Arrays.fill(dp[i], false);
-        }
-        for(int i = 0; i < nums.length; i++) {
-            dp[i][0] = true;
-        }
+        boolean[] prev = new boolean[target+1];
+        Arrays.fill(prev, false);
         for(int i = 0; i <= target; i++) {
-            dp[0][i] = (nums[0] == i);
+            prev[i] = (nums[0] == i);
         }
-        
+        prev[0] = true;
 
         for(int i = 1; i < nums.length; i++) {
+            boolean temp[] = new boolean[target+1];
+            temp[0] = true;
             for(int j = 1; j <= target; j++) {
-                boolean nottake = dp[i-1][j];
+                boolean nottake = prev[j];
                 boolean take = false;
                 if(nums[i] <= j)
-                    take = dp[i-1][j-nums[i]];
+                    take = prev[j-nums[i]];
 
-                dp[i][j] = take || nottake;
+                temp[j] = take || nottake;
             }
+            prev = temp;
         }
-        return dp[nums.length-1][target];
+        return prev[target];
     }
     public boolean canPartition(int[] nums) {
         int sum = 0;
