@@ -63,6 +63,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0268-missing-number](https://github.com/kritikamehra/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/kritikamehra/Leetcode/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/kritikamehra/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/kritikamehra/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/kritikamehra/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/kritikamehra/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/kritikamehra/Leetcode/tree/master/0493-reverse-pairs) |
@@ -281,6 +282,7 @@ Problem-Solving Techniques: Two Pointers, Sliding Window, Recursion, Iteration, 
 | [0198-house-robber](https://github.com/kritikamehra/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/kritikamehra/Leetcode/tree/master/0213-house-robber-ii) |
 | [0410-split-array-largest-sum](https://github.com/kritikamehra/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/kritikamehra/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/kritikamehra/Leetcode/tree/master/0518-coin-change-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/kritikamehra/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/kritikamehra/Leetcode/tree/master/1013-fibonacci-number) |
