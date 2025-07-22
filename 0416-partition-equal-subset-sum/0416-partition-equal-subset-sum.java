@@ -1,15 +1,29 @@
 class Solution {
-    public boolean helper(int[] nums, int target, int n, int[][] dp) {
-        if(target == 0) return true;
-        if(n == 0) return (nums[0] == target);
-        if(dp[n][target] != -1) return (dp[n][target] == 1);
-        boolean nottake = helper(nums, target, n-1, dp);
-        boolean take = false;
-        if(nums[n] <= target)
-            take = helper(nums, target-nums[n], n-1, dp);
+    public boolean helper(int[] nums, int target) {
 
-        dp[n][target] = (take || nottake ? 1 : 0);
-        return dp[n][target]==1;
+        boolean[][] dp = new boolean[nums.length][target+1];
+        for(int i = 0; i < nums.length; i++) {
+            Arrays.fill(dp[i], false);
+        }
+        for(int i = 0; i < nums.length; i++) {
+            dp[i][0] = true;
+        }
+        for(int i = 0; i <= target; i++) {
+            dp[0][i] = (nums[0] == i);
+        }
+        
+
+        for(int i = 1; i < nums.length; i++) {
+            for(int j = 1; j <= target; j++) {
+                boolean nottake = dp[i-1][j];
+                boolean take = false;
+                if(nums[i] <= j)
+                    take = dp[i-1][j-nums[i]];
+
+                dp[i][j] = take || nottake;
+            }
+        }
+        return dp[nums.length-1][target];
     }
     public boolean canPartition(int[] nums) {
         int sum = 0;
@@ -18,10 +32,7 @@ class Solution {
         }
         if(sum%2 == 1) return false;
         sum = sum/2;
-        int dp[][] = new int[nums.length][sum +1];
-        for(int i = 0; i < nums.length; i++) {
-            Arrays.fill(dp[i], -1);
-        }
-        return helper(nums, sum, nums.length-1,dp);
+        
+        return helper(nums, sum);
     }
 }
