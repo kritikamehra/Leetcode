@@ -1,24 +1,26 @@
 class Solution {
     public int helper(int[] nums, int target, int index) {
         
-        int[][] dp = new int[nums.length][target+1];
+        int[] dp = new int[target+1];
 
-        if(nums[0] == 0) dp[0][0] = 2;
-        else dp[0][0] = 1;
+        if(nums[0] == 0) dp[0] = 2;
+        else dp[0] = 1;
 
-        if(nums[0] != 0 && target >= nums[0]) dp[0][nums[0]] = 1;
+        if(nums[0] != 0 && target >= nums[0]) dp[nums[0]] = 1;
 
         for(int  i = 1; i < nums.length; i++) {
+            int[] temp = new int[target+1];
             for(int j = 0; j <= target; j++) {
                 int pick = 0;
-                if(nums[i] <= j) pick = dp[i-1][j-nums[i]];
-                int notpick = dp[i-1][j];
+                if(nums[i] <= j) pick = dp[j-nums[i]];
+                int notpick = dp[j];
 
-                dp[i][j] = pick+notpick;
+                temp[j] = pick+notpick;
             }
+            dp = temp;
         }
 
-        return dp[nums.length-1][target];
+        return dp[target];
     }
     public int findTargetSumWays(int[] nums, int target) {
         int sum = 0;
