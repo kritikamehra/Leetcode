@@ -1,5 +1,5 @@
 class Solution {
-    public int helper(int[] nums, int target, int index) {
+    public int helper(int[] nums, int target, int index, int[][] dp) {
         
         if(index == 0){
             if(target == 0 && nums[0] == 0) return 2;
@@ -7,11 +7,12 @@ class Solution {
             else return 0;   
         }
 
+        if(dp[index][target] != -1) return dp[index][target];
         int pick = 0;
-        if(nums[index] <= target) pick = helper(nums, target-nums[index], index-1);
-        int notpick = helper(nums, target, index-1);
+        if(nums[index] <= target) pick = helper(nums, target-nums[index], index-1, dp);
+        int notpick = helper(nums, target, index-1, dp);
 
-        return pick+notpick;
+        return dp[index][target] = pick+notpick;
     }
     public int findTargetSumWays(int[] nums, int target) {
         int sum = 0;
@@ -24,6 +25,10 @@ class Solution {
 
         int s = (sum-target)/2;
 
-        return helper(nums, s, nums.length-1);
+        int[][] dp = new int[nums.length][s+1];
+        for(int i = 0; i < nums.length; i++) {
+            Arrays.fill(dp[i], -1);
+        }
+        return helper(nums, s, nums.length-1, dp);
     }
 }
